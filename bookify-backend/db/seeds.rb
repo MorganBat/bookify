@@ -1,6 +1,6 @@
 10.times do
     Book.create(
-        title: Faker::Book.title
+        title: Faker::Book.title,
         author: Faker::Book.author
     )
 
